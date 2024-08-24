@@ -2,33 +2,87 @@
 
 body{
     margin: 0 auto;
+    width: 1400px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color: #111111;
 }
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+
   
 }
 
 nav h2{
     color: #E6533C;
+    font-weight: bold;
     font-size: 56px;
     font-style: italic;
 }
 
 .menu{
-
     display: flex;
+    padding: 15px 20px;   
+    border: 1px solid #fffff108;
+    border-radius: 30px;
+
+}
+.menu li{
+    margin: 0 25px;
+    list-style: none;
+
+}
+
+.menu li:first-child{
+    margin-left: -18px;
+    list-style: none;
+
 }
 
 .menu a{
     font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+   
 }
 
 
 .menu .active{
+    padding: 15px 25px;
+    background-color: #E6533C;
+    border-radius: 30px;
 
 
+}
+.button{
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.hero_title h2{
+    font-size: 78px;
+    color: #ffffff
+}
+.hero_title p{
+    color: #B9B9B9;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+}
+.hero{
+    margin: 0 auto;
+    display: flex;
+}
+
+.hero_text{
+    width: 800px;
+}
+
+.hero_img{
+    display: flex;
+    width: 600px;
 }
