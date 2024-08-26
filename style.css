@@ -86,3 +86,37 @@ nav h2{
     display: flex;
     width: 600px;
 }
+
+
+
+
+
+
+
+
+/** reponsive*/
+
+
+@media only screen and (max-width: 576px) {
+    
+    .hero{
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .menu{
+        display: none;
+    }
+    .hero_text{
+
+    }
+
+    .hero_text h2{
+        font-size: 40px;
+    }
+
+
+
+}
